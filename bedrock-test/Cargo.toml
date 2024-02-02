@@ -1,0 +1,13 @@
+[package]
+name = "bedrock-test"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bedrock-shader = { path = "../bedrock-shader" }
+bedrock-lib = { path = "../bedrock-lib" }
+pollster = "0.3.0"
+wgpu = "0.18.0"
+winit = { version = "0.29", features = ["rwh_05"] }
+rand = "0.8.5"
+

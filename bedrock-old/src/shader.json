@@ -1,0 +1,19 @@
+{
+    "source": "shader.wgsl",
+    "vertex": {
+        "main": "vs_main"
+    },
+    "fragment": {
+        "main": "fs_main",
+        "inputs": {
+            "texture0": {
+                "width": 800,
+                "height": 600
+            },
+            "uniform0": {
+                "size": 8
+            }
+        },
+        "targets": 2
+    }
+}

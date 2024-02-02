@@ -1,0 +1,14 @@
+[package]
+name = "bedrock-shader"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+proc-macro2 = "1.0"
+nom = "7.1.3"
+syn = "1.0"
+quote = "1.0"
+wgpu = "0.18.0"

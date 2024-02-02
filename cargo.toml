@@ -1,0 +1,7 @@
+[workspace]
+
+members = [
+    "bedrock-old",
+    "bedrock-shader",
+    "bedrock-test"
+]
